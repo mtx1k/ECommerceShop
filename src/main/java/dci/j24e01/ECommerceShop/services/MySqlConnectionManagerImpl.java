@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 @Component
-public class MySqlConnectionManagerImpl implements DBConnectionManager{
+public class MySqlConnectionManagerImpl implements DBConnectionManager {
     @Override
     public Connection getConnection() {
         try {
